@@ -888,3 +888,19 @@ a, button {
     text-align:center;
   }
 }
+
+
+/* ===== Header mobile: somente a logo ===== */
+@media (max-width:700px){
+  .nav-row{
+    justify-content:center;
+  }
+
+  .nav-actions{
+    display:none !important;
+  }
+
+  .logo-image-link{
+    margin:0 auto;
+  }
+}
